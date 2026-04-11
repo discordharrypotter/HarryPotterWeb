@@ -589,8 +589,8 @@
 	.t-bubble {
 		position: absolute;
 		bottom: calc(100% + 10px);
-		left: 50%;
-		transform: translateX(-50%) translateY(4px);
+		left: 0;
+		transform: translateY(4px);
 		background: var(--bg-hover);
 		border: 1px solid var(--border);
 		color: var(--text-primary);
@@ -610,14 +610,13 @@
 		content: '';
 		position: absolute;
 		top: 100%;
-		left: 50%;
-		transform: translateX(-50%);
+		left: 15px;
 		border: 5px solid transparent;
 		border-top-color: var(--border);
 	}
 	.t-card:hover .t-bubble {
 		opacity: 1;
-		transform: translateX(-50%) translateY(0);
+		transform: translateY(0);
 	}
 
 	.t-links {
