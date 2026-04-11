@@ -284,6 +284,8 @@
 		padding: 10px 14px;
 		text-align: left;
 		border-bottom: 1px solid var(--border);
+	}
+	.markdown :global(th) {
 		white-space: nowrap;
 	}
 	.markdown :global(th) {
