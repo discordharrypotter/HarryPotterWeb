@@ -689,6 +689,9 @@
 
 	/* ─── Responsive ─── */
 	@media (max-width: 900px) {
+		.hero {
+			padding-top: 24px;
+		}
 		.hero-row {
 			flex-direction: column;
 			gap: 40px;
@@ -704,7 +707,7 @@
 
 	@media (max-width: 768px) {
 		.hero {
-			padding: 0 24px;
+			padding: 24px 24px 0;
 		}
 		.hero-title {
 			font-size: 2.2em;
