@@ -25,10 +25,10 @@
 
 <aside class="sidebar" class:open={$sidebarOpen}>
 	<div class="sidebar-header">
-		<div class="logo">
+		<a href="/" class="logo" onclick={closeMobile}>
 			<img class="logo-icon" src={logoImg} alt="Logo" />
 			<span class="logo-text">{SITE.botName}</span>
-		</div>
+		</a>
 	</div>
 
 	<nav class="sidebar-nav">
@@ -83,6 +83,8 @@
 		display: flex;
 		align-items: center;
 		gap: 10px;
+		text-decoration: none;
+		color: inherit;
 	}
 
 	.logo-icon {
