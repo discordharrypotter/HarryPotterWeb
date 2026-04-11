@@ -1248,9 +1248,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"harryweb@workspace:.":
+"harrypotterweb@workspace:.":
   version: 0.0.0-use.local
-  resolution: "harryweb@workspace:."
+  resolution: "harrypotterweb@workspace:."
   dependencies:
     "@sveltejs/adapter-cloudflare": "npm:^7.2.8"
     "@sveltejs/kit": "npm:^2.57.0"
