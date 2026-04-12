@@ -77,9 +77,10 @@ export const TEAM: TeamMember[] = [
 	{
 		name: '_.sstar._',
 		role: '커뮤니티 매니저',
-		avatar: '',
-		description: '안녕하세요!',
-		links: [],
+		avatar:
+			'https://cdn.discordapp.com/avatars/552132248783290409/7ffc2964946f8eccdb0864ff767268a6.webp?size=512',
+		description: 'ee',
+		links: [{ icon: 'email', url: 'mailto:sstarr621@naver.com', label: 'Email' }],
 	},
 	{
 		name: '614project',
