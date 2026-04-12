@@ -59,7 +59,7 @@ export const TEAM: TeamMember[] = [
 		role: '총괄 및 개발자',
 		avatar:
 			'https://cdn.discordapp.com/avatars/577022814209703936/e0ebe1b7d3c07d36a0dfbf3c96a77057.webp?size=512',
-		description: 'coffee.refill();',
+		description: '잠은 죽어서 자는 것이다 - Prof.',
 		links: [
 			{ icon: 'github', url: 'https://github.com/kang87y', label: 'GitHub' },
 			{ icon: 'email', url: 'mailto:contact@kang87y.com', label: 'Email' },
@@ -92,16 +92,17 @@ export const TEAM: TeamMember[] = [
 	{
 		name: 'vlzi',
 		role: '개발자',
-		avatar: '',
-		description: '안녕하세요!',
-		links: [],
+		avatar:
+			'https://cdn.discordapp.com/avatars/835538261853732904/771b67ae8ec37e54114cfd710cce246d.webp?size=512',
+		description: '현생에서 헤르미온느 중',
+		links: [{ icon: 'web', url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', label: 'Web' }],
 	},
 	{
 		name: 'saintliy',
 		role: '개발자',
 		avatar: '',
 		description: '안녕하세요!',
-		links: [],
+		links: [{ icon: 'email', url: 'mailto:saintliy4@gmail.com', label: 'Email' }],
 	},
 	{
 		name: 'hongharam',
