@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 디스코드 서포트 서버
+    url: https://discord.gg/UzB7Kn58ZA
+    about: 봇 사용 중 발생한 문의, 실시간 도움이 필요하다면 디스코드 서포트 서버를 이용해 주세요.
+  - name: 네이버 카페
+    url: https://cafe.naver.com/discordharrypotter
+    about: 공지사항, 패치노트, 커뮤니티 소식을 확인할 수 있습니다.
