@@ -85,9 +85,13 @@ export const TEAM: TeamMember[] = [
 	{
 		name: '614project',
 		role: '개발자',
-		avatar: '',
-		description: '안녕하세요!',
-		links: [],
+		avatar:
+			'https://cdn.discordapp.com/avatars/746363437478576203/2bc6b9fdf1c6a3000bb6efbedaccf605.webp?size=512',
+		description: '🥰',
+		links: [
+			{ icon: 'github', url: 'https://github.com/614project', label: 'GitHub' },
+			{ icon: 'email', url: 'mailto:614project614@gmail.com', label: 'Email' },
+		],
 	},
 	{
 		name: 'vlzi',
